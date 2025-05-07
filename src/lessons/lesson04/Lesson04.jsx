@@ -49,7 +49,7 @@ function Lesson04() {
 
   return(
     <div>
-      <h1>Lesson 4: useState hook 🪝</h1>
+      <h1>Lesson 4: useState hook </h1>
       <MyButton text="-10" func={() => setCount(prev => prev - 10)}/>
       <button onClick={handleMinus}>-1</button>
       <span>{count}</span>
