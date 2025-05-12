@@ -10,7 +10,7 @@ function Feedback (){
        setCount(prev => prev + 1)
      }
      const handlePlus2 = () => {
-        setCount2(prev => prev - 1)
+        setCount2(prev => prev + 1)
       }
 
      const handleReset = () => {
@@ -21,6 +21,7 @@ function Feedback (){
     
     return (
         <div>
+            <h1>Feedback</h1>
             <span> {count} </span>
             <MyButton text='Like' type='button' func={handlePlus}/>
             <MyButton text='Dislike' type='button' func={handlePlus2}/>
