@@ -8,6 +8,7 @@ import Homework03 from './homework/homework03/Homework03.jsx';
 import Lesson04 from './lessons/lesson04/Lesson04.jsx';
 import Feedback from './components/Feedback/Feedback.jsx';
 import Lesson05 from './lessons/lesson05/Lesson05.jsx';
+import Homework05 from './homework/homework05/Homework05.jsx';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Lesson04/> */}
       {/* <Feedback/> */}
       {/* deploy */}
-      <Lesson05/>
+     {/*<Lesson05/>*/}
+     <Homework05/>
     </>
   );
 }
